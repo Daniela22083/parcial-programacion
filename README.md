@@ -129,10 +129,9 @@ private void mostrarYPagarMultas() {
         }
     }
 }
-} ----------------------------------------------------------------------------------------Libro---------------------------------------------------------------- package com.uniminuto.biblioteca.modelo;
+----------------------------------------------------------------------------------------Libro---------------------------------------------------------------- package com.uniminuto.biblioteca.modelo;
 
 // Herencia: Libro extiende de MaterialBibliografico public class Libro extends MaterialBibliografico {
-
 private String genero;
 
 public Libro(String titulo, String autor, String genero) {
