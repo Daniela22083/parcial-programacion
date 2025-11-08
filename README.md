@@ -150,6 +150,7 @@ public void mostrarInfo() {
     String estado = isPrestado() ? "Prestado" : "Disponible";
     System.out.println("Titulo: " + getTitulo() + ", Autor: " + getAutor() + ", Genero: " + genero + " [" + estado + "]");
 }
+
 } -----------------------------------------------------------------------------------------Multa------------------------------------------------------------------ package com.uniminuto.biblioteca.modelo;
 
 // Clase para manejar las multas public class Multa {
@@ -189,6 +190,7 @@ public void mostrarMulta() {
     String estado = pagada ? "Pagada" : "Pendiente";
     System.out.println("Libro: " + tituloLibro + " | Multa: $" + monto + " - Estado: " + estado);
 }
+
 } ---------------------------------------------------------------------------------------------MaterialBibliografico------------------------------------------------ package com.uniminuto.biblioteca.modelo;
 
 // Clase base (Herencia) public class MaterialBibliografico {
@@ -226,6 +228,7 @@ public void setPrestado(boolean prestado) {
 public void mostrarInfo() {
     System.out.println("Titulo: " + titulo + ", Autor: " + autor);
 }
+
 } ----------------------------------------------------------------------------BibliotecaApp----------------------------------------------------------------------------- package com.uniminuto.biblioteca.modelo;
 
 // Clase principal (punto de entrada del programa) public class BibliotecaApp { public static void main(String[] args) { Biblioteca biblioteca = new Biblioteca(); biblioteca.menu(); } }
